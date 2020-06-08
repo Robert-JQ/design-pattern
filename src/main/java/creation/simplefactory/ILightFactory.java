@@ -3,11 +3,11 @@ package creation.simplefactory;
 /**
  * @author jqq
  * @version 1.0
- * @description 风扇工厂
+ * @description 灯工厂
  * @date 2020/6/1 14:57
  **/
-public interface IFanFactory {
+public interface ILightFactory {
 
-    IFan createFan(FanType type);
+    ILight createLight(LightType type);
 
 }

@@ -6,7 +6,7 @@ package creation.simplefactory;
  * @description 风扇
  * @date 2020/6/1 14:54
  **/
-public interface IFan {
+public interface ILight {
 
     /**
      * 开启

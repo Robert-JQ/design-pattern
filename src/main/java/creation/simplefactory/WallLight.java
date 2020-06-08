@@ -3,17 +3,17 @@ package creation.simplefactory;
 /**
  * @author jqq
  * @version 1.0
- * @description 排风扇
+ * @description 壁扇
  * @date 2020/6/1 15:04
  **/
-public class ExhaustFan implements IFan {
+public class WallLight implements ILight {
     @Override
     public void switchOn() {
-        System.out.println("The ExhaustFan is switch on...");
+        System.out.println("The WallLight is switch on...");
     }
 
     @Override
     public void switchOff() {
-        System.out.println("The ExhaustFan is switch on...");
+        System.out.println("The WallLight is switch on...");
     }
 }

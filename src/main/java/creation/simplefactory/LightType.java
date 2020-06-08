@@ -3,21 +3,21 @@ package creation.simplefactory;
 /**
  * @author jqq
  * @version 1.0
- * @description 风扇类型
+ * @description 灯类型
  * @date 2020/6/1 14:58
  **/
-public enum FanType {
+public enum LightType {
     /**
-     * 台扇
+     * 台灯
      */
-    TableFan,
+    TableLight,
     /**
-     * 吊扇
+     * 吊灯
      */
-    CeilingFan,
+    CeilingLight,
     /**
-     * 排风扇
+     * 壁扇
      */
-    ExhaustFan
+    WallLight
 
 }

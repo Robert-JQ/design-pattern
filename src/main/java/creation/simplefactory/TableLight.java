@@ -3,17 +3,17 @@ package creation.simplefactory;
 /**
  * @author jqq
  * @version 1.0
- * @description 台扇
+ * @description 台灯
  * @date 2020/6/1 15:00
  **/
-public class TableFan implements IFan {
+public class TableLight implements ILight {
     @Override
     public void switchOn() {
-        System.out.println("The TableFan is switch on...");
+        System.out.println("The TableLight is switch on...");
     }
 
     @Override
     public void switchOff() {
-        System.out.println("The TableFan is switch off...");
+        System.out.println("The TableLight is switch off...");
     }
 }

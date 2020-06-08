@@ -9,11 +9,11 @@ package creation.simplefactory;
 public class SimpleFactoryMain {
 
     public static void main(String[] args) {
-        IFanFactory fanFactory = new FanFactory();
-        //使用简单工厂创建吊扇
-        IFan fan = fanFactory.createFan(FanType.CeilingFan);
-        fan.switchOn();
-        fan.switchOff();
+        ILightFactory lightFactory = new LightFactory();
+        //使用简单工厂创建吊灯
+        ILight light = lightFactory.createLight(LightType.CeilingLight);
+        light.switchOn();
+        light.switchOff();
     }
 
 }
