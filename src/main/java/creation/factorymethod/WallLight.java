@@ -1,4 +1,5 @@
-package creation.simplefactory;
+package creation.factorymethod;
+
 
 /**
  * @author jqq

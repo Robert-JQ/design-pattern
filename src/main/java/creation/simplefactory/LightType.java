@@ -16,7 +16,7 @@ public enum LightType {
      */
     CeilingLight,
     /**
-     * 壁扇
+     * 壁灯
      */
     WallLight
 
