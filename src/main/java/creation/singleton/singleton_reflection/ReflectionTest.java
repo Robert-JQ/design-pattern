@@ -15,6 +15,7 @@ public class ReflectionTest {
         ReflectionSingleton instanceOne = ReflectionSingleton.getInstance();
         ReflectionSingleton instanceTwo;
         try {
+            // 使用反射破坏单例
             Constructor<ReflectionSingleton> constructor = ReflectionSingleton.class.getDeclaredConstructor();
             constructor.setAccessible(true);
             instanceTwo = constructor.newInstance();
