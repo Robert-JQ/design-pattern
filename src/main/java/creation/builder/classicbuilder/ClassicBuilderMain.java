@@ -1,4 +1,4 @@
-package creation.builder;
+package creation.builder.classicbuilder;
 
 /**
  * @author jqq
